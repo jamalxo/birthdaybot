@@ -2,4 +2,6 @@
 
 Run the bot with: node bot.js
 
-test
+- [ ] Create Database
+- [ ] Bot should be able to display recent usernames (https://steamid.uk/)
+- [ ] Able to write database with known smurfs
