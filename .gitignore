@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+## TypeScript
+# typings
+typings
+
+# version
+src/environments/version.ts
+
+# this is a JavaScript-free zone ;)
+app/*.js
+*.map
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Build artifacts
+cache
+.tmp
+.sass-cache
+.node-cache
+dist
+build
+tslint_rules/*.js
+
+# SonarQube
+.scannerwork
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# vscode
+.vscode/launch.json
+
+# macOS
+.DS_Store
+
+tslint-report.json
+
+# Watir
+testIat/tests/results/
+testIat/tests/tmp/
+/src/assets/changelog.md
