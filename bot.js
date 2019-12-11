@@ -77,21 +77,21 @@ function sendBirthday() {
     const results = persons.filter(person => (person.birthday.getMonth() === today.getMonth() && person.birthday.getDate() === today.getDate()));
     console.log(results)
     if (results.length > 0) {
-        for (channel in channels) {
+        //for (channel in channels) {
             results.forEach(function (entry) {
                 bot.sendMessage({
-                    to: channel, //"628292888849154049",
+                    to: "639620710419136537", //"628292888849154049",
                     message: entry.name + " has his/her birthday today. Congratulate them :)"
                 })
             });
-        }
+        //}
     } else {
-        for (channel in channels) {
+        //for (channel in channels) {
             bot.sendMessage({
-                to: channel, //"628292888849154049",
+                to: "639620710419136537", //"628292888849154049",
                 message: 'No one has a birthday today :('
             })
-        }
+        //}
     }
 }
 
@@ -126,7 +126,7 @@ function sendNextBirthday() {
 
     //for (channel in channels) {
         bot.sendMessage({
-            to: "620252940086542338",//channel, //"628292888849154049",
+            to: "639620710419136537", 
             message: "**" + nextBirthdays[0].name + "** has his/her birthday next :partying_face: :partying_face: :partying_face:. At: " + nextBirthdays[0].birthday.toLocaleDateString()
         })
     //}
