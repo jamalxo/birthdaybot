@@ -1,13 +1,5 @@
 var Discord = require('discord.io');
 var auth = require('./auth.json');
-<<<<<<< HEAD
-// Configure logger settings
-logger.remove(logger.transports.Console);
-logger.add(new logger.transports.Console, {
-    colorize: true
-});
-logger.level = 'debug';
-=======
 const https = require('https');
 const cron = require('cron');
 
@@ -23,8 +15,6 @@ var persons = [
     new Person("Biryu", new Date('January 18, 1995'))
 ];
 
-
->>>>>>> changed to birthday bot
 // Initialize Discord Bot
 var bot = new Discord.Client({
     token: auth.token,
