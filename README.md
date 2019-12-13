@@ -1,3 +1,2 @@
-# smurfbuster: Bot for Discord to detect smurfs and other information about steam accs
-
+# smurfbuster: Bot for Discord to remind of birthdays of ppl in the server
 Run the bot with: node bot.js
